@@ -1,0 +1,70 @@
+@value colors: "../../helpers/colors.module.css";
+@value blue, blue-hover from colors;
+
+.postContainer {
+  height: 350px;
+  width: 100%;
+  border: 1px solid #eee;
+  box-shadow: 1px 2px 2px 0px #eee;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 20px;
+  /* display: flex; */
+}
+
+.postContainer:hover .imageDateContainer {
+  background-position: no-repeat left top;
+  background-size: cover;
+}
+
+.postContainer:hover .contentContainer h2,
+.postContainer:hover .contentContainer h4 {
+  color: #000;
+}
+
+.postContainer:hover .dateContainer {
+  margin-top: -8px;
+  margin-right: -8px;
+}
+
+.postContainer:hover .tagContainer {
+  padding: 15px;
+  margin-top: -56px;
+  margin-bottom: 30px;
+}
+
+.imageDateContainer {
+  height: 200px;
+  background-color: #ffffff;
+  background-position: no-repeat left top;
+  background-size: cover;
+}
+
+.dateContainer {
+  transition: 0.5s ease;
+  float: right;
+  background-color: blue;
+  color: #fff;
+  padding: 10px;
+}
+.tagContainer {
+  transition: 0.5s ease;
+  background-color: blue;
+  color: #fff;
+  padding: 10px;
+  margin-top: -25px;
+  width: fit-content;
+}
+
+.contentContainer {
+  text-align: center;
+  transition: 0.5s ease;
+}
+
+.contentContainer h2 {
+  color: #333;
+}
+
+.contentContainer h4 {
+  color: #aaa;
+}

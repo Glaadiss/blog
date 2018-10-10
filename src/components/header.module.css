@@ -1,5 +1,7 @@
+@value colors: "../helpers/colors.module.css";
+@value blue from colors;
 .headerWrapper {
-  background: rebeccapurple;
+  background: blue;
   margin-bottom: 1.45rem;
 }
 

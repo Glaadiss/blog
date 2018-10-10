@@ -7,13 +7,13 @@ const Header = ({ siteTitle }) => (
     <div className={styles.headerCore}>
       <div>
         <h3 style={{ margin: 0 }}>
-          <HeaderLink to="/" title="glaadiss" />
+          <HeaderLink to="/" title="gladis-blog" />
         </h3>
       </div>
       <div className={styles.headerLinks}>
-        <HeaderLink to="/" title="About me" />
+        <HeaderLink to="/" title="About mee" />
         <HeaderLink to="/" title="Blog" />
-        <HeaderLink to="/" title="Contact" />
+        <HeaderLink to="/contact" title="Contact" />
       </div>
     </div>
   </div>
