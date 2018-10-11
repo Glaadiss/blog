@@ -29,11 +29,12 @@
 
 @media (max-width: 710px) {
   .postContainer {
-    height: 380px;
+    height: 420px;
   }
   .postContainer:hover .dateContainer {
-    margin-top: 0px;
+    margin-top: 200px;
     margin-right: 0px;
+    padding: 15px;
   }
   .dateContainer{
     margin-top: 200px;
