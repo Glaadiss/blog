@@ -24,7 +24,7 @@ export default class Post extends React.Component {
         onMouseEnter={hover}
         onMouseLeave={unHover}
         className={styles.postContainer}
-        onClick={() => navigate('/posts/another-one')}
+        onClick={() => navigate(props.to)}
       >
         <div className={styles.imageDateContainer} style={background}>
           <div className={styles.dateContainer}>{props.date}</div>

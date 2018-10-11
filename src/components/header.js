@@ -11,7 +11,7 @@ const Header = ({ siteTitle }) => (
         </h3>
       </div>
       <div className={styles.headerLinks}>
-        <HeaderLink to="/" title="About mee" />
+        <HeaderLink to="/about-me" title="About mee" />
         <HeaderLink to="/" title="Blog" />
         <HeaderLink to="/contact" title="Contact" />
       </div>
